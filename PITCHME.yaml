@@ -1,10 +1,19 @@
-#テーマの設定
-theme : moon
+# Layout
+layout : center-right
 
+# Look-and-Feel
+logo : assets/images/logo.png
+theme : night
+theme-override : assets/css/PITCHME.css
+highlight : ir-black
 
-#ロゴアイコンの設定
-logo : logo.png
+# Behavior
+transition : fade
+published : true
 
+# Plugins
+charts : true
+mathjax : TeX-AMS_HTML-full
 
 #フットノートの設定
 footnote : "© 2017 sample Inc."
@@ -13,21 +22,8 @@ footnote : "© 2017 sample Inc."
 #スライドのページ数表示の設定
 slide-number: true
 
-#コードのシンタックスハイライトの設定
-highlight : monokai
-
-
 #スライド自動再生の設定
-##autoslide : 5000
-
-
-#スライドのループ設定
-loop : true
-
-
-#トランジションの設定
-transition : fade
-
+##autoslide : 500
 
 #チャート / グラフ機能の設定
 charts : true
