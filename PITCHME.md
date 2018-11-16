@@ -15,6 +15,9 @@
 
 ### 3枚目のスライド
 
+-Java
+-Javascript|
+-Python|
 
 ---
 
