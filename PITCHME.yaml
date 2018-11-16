@@ -9,7 +9,7 @@ highlight : ir-black
 
 # Behavior
 transition : fade
-published : true
+#published : true
 
 # Plugins
 charts : true
