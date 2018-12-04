@@ -3,9 +3,9 @@ layout : center
 
 # Look-and-Feel
 logo : assets/images/logo.png
-#theme : beige
-#theme-override : assets/css/PITCHME.css
-highlight : ir-black
+theme : beige
+theme-override : assets/css/PITCHME.css
+highlight : hybrid
 
 # Behavior
 transition : convex
@@ -27,3 +27,5 @@ slide-number: true
 
 #チャート / グラフ機能の設定
 charts : true
+
+logo : assets/image/logo.png
