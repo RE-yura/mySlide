@@ -40,6 +40,10 @@
 - そもそも作ったところで動くかわからない． <br> |
  [内側が回転する？](https://www.youtube.com/watch?time_continue=65&v=ZluyTRFn3OY)
 
++++
+
+![alt](assets/image/sphero.jpg)  
+
 <!-- 
 
 ### 他にも色々できます
