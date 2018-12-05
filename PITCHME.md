@@ -37,8 +37,8 @@
 
 ### 良くない点
 
-- そもそも作ったところで動くかわからない． <br>
- [内側が回転する？](https://www.youtube.com/watch?time_continue=65&v=ZluyTRFn3OY) |
+- そもそも作ったところで動くかわからない． <br> |
+ [内側が回転する？](https://www.youtube.com/watch?time_continue=65&v=ZluyTRFn3OY)
 
 <!-- 
 
