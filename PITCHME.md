@@ -40,7 +40,7 @@
 - そもそも作ったところで動くかわからない． <br> |
  [内側が回転する？](https://www.youtube.com/watch?time_continue=65&v=ZluyTRFn3OY)
 
-+++?image=assets/image/sphero.jpg 90%
++++?image=assets/image/sphero.jpg
 
 <!-- 
 
