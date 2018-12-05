@@ -39,7 +39,10 @@
 
 - 位置・速度制御が難しい． |
 - 軌道の曲率が決まってしまう． |
+
+<!-- 
 ---
+
 ### 他にも色々できます
 
 <br>
@@ -57,6 +60,8 @@
         <li>自由自在です。</li>
     </ul>
 </div>
+-->
+
 ---?image=assets/image/gitpitch-audience.jpg
-@size[2.0em](@color[white](おわり))
+@size[2.0em](@color[blue](おわり))
 
