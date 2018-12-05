@@ -9,166 +9,38 @@
 2種類の構造で迷っているから
 
 ---
-###案1:
+### 案1:
 ##おもりの重力を使って動かす
 
 +++
 
-###メリット
+### 良い点
 
+- (構造的に次に紹介する案よりは)動きそう
 
++++
 
----
-基本的な使い方は、[こちらのスライド](https://gitpitch.com/kakisoft/HowToUseGitPitch)  
-にて紹介しています。  
-　  
-初めて使う方は、上記のスライドを先に、  
-ご参照頂けたらと思います。
----
-追加機能
----
-### フォントサイズ
----
-@size[2.5em](こんな感じ)に、  
-フォントのサイズを  
-自由に変更できるようになりました。
----
-書き方は、**『@size\[2.5em\](こんな感じ)』** です。
-　  
-　  
-@size[1.1em](「@size」を記述し、\[フォントサイズ\] (文字))  
-と、記述します。
----
-### フォントカラー
----
-@size[2.0em](@color[blue](こんな感じ))に、  
+### 良くない点
 
-フォントカラーを @color[#DC143C](自由に設定できる)  
-ようになりました。
----
-書き方は、**『@color\[blue\](こんな感じ)』** です。
-　  
-　  
-@size[1.1em](「@color」を記述し、\[色\] (文字))  
-と、記述します。
----
-### カスタムCSS
----
-PITCHME.yaml（設定ファイル）にて、  
-以下のように、カスタム CSSが設定できます。
-```
-theme-override : assets/css/PITCHME.css
-```
+- 位置・速度制御が難しい．
+- 軌道の曲率が決まってしまう． |
 
 ---
-例えば、以下のような css を記述し、
-```css
-.headline {
-  color: blue;
-  font-size: 1.1em;
-}
-```
-こんな感じに @css[headline](使う事が出来ます。)
----
-書き方は、**『@css\[クラス\](内容)』** です。
-　  
-　  
-@size[1.1em](「@css」を記述し、\[クラス\] (文字))  
-と、記述します。
----
-### アイコン
----
-@fa[check-square icon-size1](こんな風に)  
-　  
-@fa[twitter icon-size2](色々なアイコンが)  
-　  
-@fa[github icon-size3](使えるようになっていて)  
-　  
-@fa[bolt fa-2x](大きさも指定できます)  
----
-書き方は、**『@fa\[アイコン名 サイズ\](テキスト)』**   
-です。    
-　  
-サイズと文字は省略可能です。  
-また、CSSを適用する事もできます。
----
-アイコンギャラリーは [こちら](https://fontawesome.com/icons?from=io)。
-　  
-![alt](assets/image/icon-gallery.png)  
+### 案2:
+##ホイールの摩擦を使って動かす
 
-何が使えて、何が使えないか良く分からないので、  
-[使えるアイコンをリストアップしました。](https://gitpitch.com/kakisoft/GitPitchIconList#/)
----
-### 引用
----
-@quote[こんな感じで、引用符を<br>記述できます。]
----
-書き方は、**『@quote\[こんな感じ\]』** です。
----
-### スライドの遷移
----
-現在、スライドの遷移は、  
-「transition : convex」という設定です。
----
-@transition[zoom-in fade-out]
-ですが、一部のスライドだけを
----
-@transition[concave]
-こうしたり
----
-@transition[zoom]
-こうしたり
----
-@transition[slide]
-こんな感じで
----
-@transition[fade]
-スライドのアニメーションを  
-変える事が出来ます。
----
-書き方は、**『@transition\[遷移タイプ\]』** です。
-　  
-遷移タイプは、以下が設定できます。
-```
-convex, concave, default,
-fade, none, slide, zoom
-```
----
-### 文字の配置
----
-@transition[none]
++++
 
-@snap[north]
-こんな感じで
-@snapend
+### 良い点
 
-@snap[west]
-自由に
-@snapend
+- (構造的に次に紹介する案よりは)動きそう
 
-@snap[midpoint]
-文字を
-@snapend
++++
 
-@snap[east]
-配置
-@snapend
+### 良くない点
 
-@snap[south]
-できます
-@snapend
----
-書き方は、  
-___
-@ snap\[ポジション\]<br>@size[0.7em](（内容）)<br>@ snapend  
-___
-です。  
-　  
-ポジションは、以下が設定できます。
-```
-east, west, south, north
-midpoint
-```
+- 位置・速度制御が難しい．
+- 軌道の曲率が決まってしまう． |
 ---
 ### 他にも色々できます
 
@@ -187,15 +59,6 @@ midpoint
         <li>自由自在です。</li>
     </ul>
 </div>
----
-マークダウンとHTMLでスライドが作れるのは、  
-手軽で便利だと思ってます。
----
-興味が沸いた方は、是非使ってみて下さい！  
-https://gitpitch.com/
----
-また、このスライドのリポジトリは、  
-[こちら](https://github.com/kakisoft/HowToUseGitPitch3)です。
 ---?image=assets/image/gitpitch-audience.jpg
 @size[2.0em](@color[white](おわり))
 
