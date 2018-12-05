@@ -62,5 +62,5 @@
 -->
 
 ---?image=assets/image/gitpitch-audience.jpg
-@size[2.0em](@color[blue](おわり))
+@size[2.0em](@color[bl](おわり))
 
